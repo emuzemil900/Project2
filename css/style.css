@@ -17,7 +17,7 @@ nav ul li {
 nav ul li a {
   display: block;
   text-decoration: none;
-  font-family: 'alumni sans inline one', sans-serif;
+  font-family: 'Times New Roman', system-ui;
   text-align: center;
   padding: 15px 30px;
   color: #808080;
@@ -28,6 +28,6 @@ nav ul li a:hover {
 }
 
 h1, h2, h3 {
-  font-family: 'alumni sans inline one', sans-serif;
+  font-family: 'Times New Roman', system-ui;
   font-size: 30px;
 }
