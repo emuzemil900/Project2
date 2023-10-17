@@ -9,3 +9,7 @@ nav ul {
   position: fixed;
   background-color: #2e2e2e;
 }
+
+nav ul li {
+  float: left;
+}
