@@ -13,3 +13,12 @@ nav ul {
 nav ul li {
   float: left;
 }
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: 'alumni sans inline one', sans-serif;
+  text-align: center;
+  padding: 15px 30px;
+  color: #808080;
+}
