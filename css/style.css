@@ -31,3 +31,8 @@ h1, h2, h3 {
   font-family: 'Times New Roman', system-ui;
   font-size: 30px;
 }
+
+h4 {
+  font-size: 18px;
+  margin: 0;
+}
