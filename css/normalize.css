@@ -79,3 +79,12 @@ progress {
 textarea {
   overflow: auto;
 }
+
+optgroup {
+  font-weight: bold;
+}
+
+td,
+th {
+  padding: 0;
+}
