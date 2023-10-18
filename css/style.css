@@ -1,12 +1,14 @@
 
 #main-navbar {
-  background-color: blue;
+  background-color: gray;
   overflow: hidden;
+  text-align: center; /* Add this line */
 }
 
 #navbar-container {
-  float: left;
-  width: 100%;
+  float: none; /* Change float to none */
+  margin: 0 auto; /* Add this line to center the container */
+  width: fit-content; /* Add this line to make the container fit the content width */
   position: relative;
 }
 
@@ -14,16 +16,11 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  position: relative;
-  left: 50%;
-  float: left;
+  display: inline-block; /* Change float to inline-block */
 }
 
 #main-navbar ul li {
-  float: left;
-  position: relative;
-  right: 50%;
-  display: block;
+  display: inline; /* Change float to inline */
 }
 
 #main-navbar ul li a {
@@ -35,18 +32,20 @@
 
 #main-navbar ul li a:hover {
   background-color: #000;
+  text-decoration: none; /* Add this line to remove underline on hover */
 }
 
 #onpage {
-  text-decoration: underline overline;
+  text-decoration: none; /* Remove underline and overline */
 }
 
 #sidebar {
   position: fixed;
-  right:0%;
+  right:0;
   background-color: red;
   height: 100%;
   width: 20%;
+  overflow-y: scroll; /* Add this line to enable scrolling */
 }
 
 #sidebar ul {
@@ -64,4 +63,5 @@
 
 #sidebar ul li a:hover {
   background-color: #000;
+  text-decoration: none; /* Add this line to remove underline on hover */
 }
