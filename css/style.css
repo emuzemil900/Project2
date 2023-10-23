@@ -1,67 +1,122 @@
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  --pastel-pink: #ffc0cb;
+  --dark-gray: #333;
+  --deep-pink: #ff1493;
+  --white: #fff;
+  --hot-pink: #ff69b4;
+  --light-purple: #dac2ee;
+  --deep-purple: #7b11ec;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Abril Fatface', serif, sans-serif;
+  font-weight: 400;
+  background-color: var(--pastel-pink);
+  color: var(--dark-gray);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--hot-pink);
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-shadow: 2px 2px 0 var(--dark-gray);
+  margin: 10px;
+}
+
+h2 {
+  font-weight: 700;
+  color: var(--deep-pink);
+}
+
+/* Navigation Styles */
 
 #main-navbar {
-  background-color: gray;
-  overflow: hidden;
-  text-align: center; /* Add this line */
+  background-color: var(--deep-pink);
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
 }
 
 #navbar-container {
-  float: none; /* Change float to none */
-  margin: 0 auto; /* Add this line to center the container */
-  width: fit-content; /* Add this line to make the container fit the content width */
-  position: relative;
+  width: 80%;
+  padding: 0 10%; 
 }
 
 #main-navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: inline-block; /* Change float to inline-block */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #main-navbar ul li {
-  display: inline; /* Change float to inline */
-}
-
-#main-navbar ul li a {
-  display: block;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
-}
-
-#main-navbar ul li a:hover {
-  background-color: #000;
-  text-decoration: none; /* Add this line to remove underline on hover */
-}
-
-#onpage {
-  text-decoration: none; /* Remove underline and overline */
-}
-
-#sidebar {
-  position: fixed;
-  right:0;
-  background-color: red;
-  height: 100%;
-  width: 20%;
-  overflow-y: scroll; /* Add this line to enable scrolling */
-}
-
-#sidebar ul {
-  list-style-type: none;
-  text-align: center;
+  margin: 0;
   padding: 0;
 }
 
-#sidebar ul li a {
-  display: block;
-  padding: 15px 0;
-  color: #fff;
+#main-navbar ul li a {
+  padding: 10px 20px;
+  color: var(--white);
   text-decoration: none;
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 5px;
+  margin: 0 5px;
 }
 
-#sidebar ul li a:hover {
-  background-color: #000;
-  text-decoration: none; /* Add this line to remove underline on hover */
+#main-navbar ul li a:hover {
+  background-color: var(--hot-pink);
+  padding: 10px 25px;
+}
+
+/* Index Page Styles */
+
+#index-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--pastel-pink);
+}
+
+.index-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.index-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.index-section ul li {
+  margin: 10px 0;
+}
+
+.index-section h3 {
+  font-weight: 700;
 }
