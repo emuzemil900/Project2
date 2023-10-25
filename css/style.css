@@ -23,7 +23,7 @@ footer{
 img{
   display: flex;
   width: 60%;
-  height: auto;
+  height: 200px;
   margin: 0 auto;
   padding: 50px;
 }
