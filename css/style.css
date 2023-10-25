@@ -88,12 +88,12 @@ section{
 .site-title{
   color: #FFFFFF;
   font-family: 'Orbitron', serif;
-  text-shadow: -2px 0px #FFCBDA, 0px 2px #FFCBDA, 2px 0px #FFCBDA, 0px -2px #FFCBDA;
+  text-shadow: -2px 0px #f0e68c, 0px 2px #f0e68c, 2px 0px #f0e68c, 0px -2px #f0e68c;
   color: #FFFFFF;
 }
 
 .sub-title{
-  color:#FFCBDA;
+  color:#f0e68c;
   font-family: 'Orbitron', serif;
   font-size: 15px;
   margin-bottom: 20px;
