@@ -73,12 +73,12 @@ nav ul li a:hover{
 
 section{
   color: black;
-  background: linear-gradient(180deg, #FEFACA 80px, white 10px);
+  background: linear-gradient(180deg, #e6ccff 80px, white 10px);
   width:60%;
   overflow: auto;
   padding: 0px 20px 20px 20px;
   box-shadow: 
-    0 0 0 3px #F6638F,  
+    0 0 0 3px #5600a6,  
     0 0 0 10px #a99456;
   text-align: center;
   margin: 40px auto;
