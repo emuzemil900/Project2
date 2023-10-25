@@ -68,7 +68,7 @@ nav ul li a:hover{
 }
 
 #onpage{
-  text-decoration: underline #FFFFFF;
+  text-decoration: underline #a99456;
 }
 
 section{
@@ -79,17 +79,17 @@ section{
   padding: 0px 20px 20px 20px;
   box-shadow: 
     0 0 0 3px #F6638F,  
-    0 0 0 10px #FFFFFF;
+    0 0 0 10px #a99456;
   text-align: center;
   margin: 40px auto;
   border-radius: 10px;
 }
 
 .site-title{
-  color: #FFFFFF;
+  color: #a99456;
   font-family: 'Orbitron', serif;
   text-shadow: -2px 0px #f0e68c, 0px 2px #f0e68c, 2px 0px #f0e68c, 0px -2px #f0e68c;
-  color: #FFFFFF;
+  color: #a99456;
 }
 
 .sub-title{
