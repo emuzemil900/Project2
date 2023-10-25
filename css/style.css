@@ -22,14 +22,14 @@ footer{
 
 img{
   display: flex;
-  width: 135px;
+  width: 150px;
   height: 300px;
   margin: 0 auto;
   padding: 50px;
 }
 
 iframe{
-  width: 135px;
+  width: 150px;
   height: 300px;
   margin: 20px auto;
   padding: 50px;
