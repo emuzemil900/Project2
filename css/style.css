@@ -92,6 +92,15 @@ section{
   color: #a99456;
 }
 
+.sec-title{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-family: 'Orbitron', cursive;
+  text-shadow: -2px 0px #008080, 0px 2px #008080, 2px 0px #008080, 0px -2px #008080;
+  color: #a99456;
+}
+
 .sub-title{
   color:#f0e68c;
   font-family: 'Orbitron', serif;
