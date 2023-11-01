@@ -88,6 +88,8 @@ section{
 }
 
 .site-title{
+  margin-top: 30px;
+  margin-bottom: 50px;
   color: #a99456;
   font-family: 'Orbitron', serif;
   text-shadow: -2px 0px #f0e68c, 0px 2px #f0e68c, 2px 0px #f0e68c, 0px -2px #f0e68c;
